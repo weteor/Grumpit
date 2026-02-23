@@ -46,15 +46,19 @@ Then just flash (and optionally change) the firmware and you should be ready to 
 
 ### firmware
 
-Config for ZMK can be found [here](./firmware). I've build the firmware locally and didn't use the github actions, so if you want to do that, please configure it yourself.
+Config for ZMK can be found here: 
+- [Github actions](https://github.com/weteor/grumpit-zmk-config)
+- [local](./firmware).
 
 Bootloader should be available on plugin until firmware is written. After flashing you may access the bootloader by double pressing the reset button.
 
 
 ### special thanks
+
 [Forager](https://github.com/carrefinho/forager) for solving bottom mount Xiaos. I just plainly took his bottom case design for the reset button and led and copied it for this case. Such a great idea!
 
 ### the rest
+
 Everything in this repository is free to use however you might see fit. If you want to support me and my projects, please consider linking back to this repository if you build/change/use anything.
 
 If you would like to send me a tip, you could do it [here](https://ko-fi.com/weteor) (Please don't feel like you have to).
