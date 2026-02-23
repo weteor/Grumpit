@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "weteor")(type "KiCad")(uri "C:/Users/mschroeder/.build/weteor_kicad_lib/footprints")(options "")(descr ""))
+  (lib (name "mcu")(type "KiCad")(uri "C:/Users/mschroeder/.build/kleeb/mcu.pretty")(options "")(descr ""))
+)
