@@ -1,0 +1,12 @@
+file_format: "1"
+id: grumpit
+name: Grumpit
+type: shield
+url: https://github.com/weteor/Grumpit
+requires: 
+  - xiao_ble
+features:
+  - keys
+siblings:
+  - grumpit_left
+  - grumpit_right

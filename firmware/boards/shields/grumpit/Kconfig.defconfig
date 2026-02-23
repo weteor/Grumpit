@@ -1,0 +1,29 @@
+if SHIELD_GRUMPIT_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Grump'it"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+endif
+
+if SHIELD_GRUMPIT_LEFT || SHIELD_GRUMPIT_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_SLEEP
+    default y
+
+config ZMK_PM_SOFT_OFF
+    default y
+
+endif
